@@ -1,0 +1,53 @@
+- Single line comments: //
+- Multi line comments: /* */
+- Data types available in JS
+    - undefined
+    - null
+    - boolean
+    - string
+    - symbol
+    - bigint
+    - number
+    - object
+
+- variables are created using 'var'
+    ex: var Name;
+        you can initialise the var with value also
+        var Name='SomeName';
+
+- difference between var and let is let allows you to define variable
+with a block scope just like python unlike var
+    more on this: https://www.geeksforgeeks.org/difference-between-var-let-and-const-keywords-in-javascript/
+
+- const, is used when you want to fix the value of variable
+
+- const vars are usally defined using all CAPS letters
+
+- incrementor and decrementor
+    i++ : increments
+    i--: decerements
+
+- compounded assigment += works in js also
+    a = a + 1 --> a+=1
+
+- Escape sequences
+    \'	single quote
+    \"	double quote
+    \\	backslash
+    \n	newline
+    \r	carriage return
+    \t	tab
+    \b	word boundary
+    \f	form feed
+
+- string concatenation
+    const ourStr = "I come first. " + "I come second.";
+
+- .length gives the len of string
+    console.log("Alan Peter".length);
+
+- string indexing
+    let name='string';
+    name[0]-->return first letter
+
+- strings in JS are immutable
